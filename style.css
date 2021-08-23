@@ -1,0 +1,287 @@
+/* Sfondo */
+body{
+  background-image: url(immagini/4.jpg);
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: bottom 100%;
+  height: 3100px;
+}
+
+.stretch{
+    width:100%;
+    height:100%;
+}
+
+.container{
+  width: 640px;
+  height: 960px;
+  margin: auto;
+  position: relative;
+}
+
+/* Immagine profilo */
+.profilo{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 60px;
+  left: 25px;
+}
+
+.bordo{
+  border: 5px solid white;
+}
+
+/* Scritta Curriculum */
+#titolocv{
+  display: block;
+  height: 50px;
+  width: 400px;
+  background-color:lightgrey;
+  border: 1px solid black;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+div.scritta{
+  font-size: 20px;
+  color: rgb(55, 168, 213);
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+#hr{
+  color; blue;
+  position: relative;
+  top: 230px;
+}
+
+.vl{
+  border-left: 1px solid black;
+  height: 2900px;
+  position: absolute;
+  top: -10px;
+  left: 180px;
+}
+
+/* Elenco dati sensibili */
+.contenuti{
+  color: rgb(55, 168, 213);
+  position: absolute;
+  width: 700px;
+  top: 170px;
+  left: 210px;
+}
+
+.row-left{
+  display: inline-block;
+  width: 26%
+}
+
+.row-right{
+  display: inline-block;
+  width: 48%
+}
+
+#mail:before{
+  content:"\2709"
+}
+
+#telefono:before{
+  content:"\260E"
+}
+
+#casa:before{
+  content:"\2302"
+}
+
+#internet:before{
+  content:"\1F310"
+}
+
+/* Esperienze di Lavoro */
+
+.esperienze{
+  color: rgb(55, 168, 213);
+  font-size: 18px;
+  font-weight: bolder;
+  position: absolute;
+  top: 230px;
+  line-height: 34px;
+}
+
+#titolo2{
+  display: block;
+  height: 40px;
+  width: 180px;
+  background-color:lightgrey;
+  box-sizing: border-box;
+  border: 3px solid black;
+  position: absolute;
+  top: 230px;
+  text-align: center;
+}
+
+/* Tabella esperienze di lavoro */
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  position: absolute;
+  top: 280px;
+  width: 640px;
+}
+
+th, td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+th{
+  border: 3px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.tad{
+  width: 10px;
+}
+
+#id3{
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Esperienze di Studio */
+
+#titolo3{
+  display: block;
+  height: 40px;
+  width: 180px;
+  background-color:lightgrey;
+  box-sizing: border-box;
+  border: 3px solid black;
+  position: absolute;
+  top: 1630px;
+  text-align: center;
+}
+
+#hr2{
+  color; blue;
+  position: relative;
+  top: 1660px;
+}
+
+.esperienze2{
+  color: rgb(55, 168, 213);
+  font-size: 16px;
+  font-weight: bolder;
+  position: absolute;
+  top: 230px;
+  line-height: 34px;
+}
+
+.table2{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  position: absolute;
+  top: 1680px;
+  width: 640px;
+}
+
+/* Competenze */
+
+#titolo4{
+  display: block;
+  height: 40px;
+  width: 180px;
+  background-color:lightgrey;
+  box-sizing: border-box;
+  border: 3px solid black;
+  position: absolute;
+  top: 2060px;
+  text-align: center;
+}
+
+.esperienze3{
+  color: rgb(55, 168, 213);
+  font-size: 16px;
+  font-weight: bolder;
+  position: absolute;
+  top: 230px;
+  line-height: 34px;
+}
+
+#hr3{
+  color; blue;
+  position: relative;
+  top: 2080px;
+}
+
+.table3{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  position: absolute;
+  top: 2120px;
+  width: 640px;
+}
+
+/* Stelle */
+#ste:after{
+  content:"\2605 \2605 \2605 \2605 \2606"
+}
+
+#ste1:after{
+  content:"\2605 \2605 \2605 \2606 \2606"
+}
+
+/* Competenze aggiuntive */
+
+#titolo5{
+  display: block;
+  height: 40px;
+  width: 180px;
+  background-color:lightgrey;
+  box-sizing: border-box;
+  border: 3px solid black;
+  position: absolute;
+  top: 2450px;
+  text-align: center;
+}
+
+.esperienze4{
+  color: rgb(55, 168, 213);
+  font-size: 16px;
+  font-weight: bolder;
+  position: absolute;
+  top: 230px;
+  line-height: 34px;
+}
+
+#hr4{
+  color; blue;
+  position: relative;
+  top: 2460px;
+}
+
+.table4{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  position: absolute;
+  top: 2510px;
+  width: 640px;
+}
+
+
+.contenuti2{
+  color: white;
+  position: absolute;
+  width: 700px;
+  top: 3040px;
+  left: 180px;
+}
